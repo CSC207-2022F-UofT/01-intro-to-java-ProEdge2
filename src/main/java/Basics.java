@@ -108,6 +108,9 @@ public class Basics {
             System.out.println(phrase + i);
         }
 
+        int[] temp = {1};
+        System.out.println(oddSum(temp));
+
     }
 
     /**
@@ -184,12 +187,7 @@ public class Basics {
          *                (e.g. arr[i] gives you the item at index i).
          */
         for (int i = 0; i < arr.length; i++){
-
-            if (arr.length == 1){
-                break;
-            }
-
-            else if (i % 2 == 0){
+            if (i % 2 == 0){
                 current_sum += arr[i];
             }
         }
