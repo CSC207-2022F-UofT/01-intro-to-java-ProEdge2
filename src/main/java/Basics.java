@@ -107,8 +107,7 @@ public class Basics {
             String phrase = "Current Count: ";
             System.out.println(phrase + i);
         }
-        int[] temp = {1};
-        System.out.println(oddSum(temp));
+
     }
 
     /**
