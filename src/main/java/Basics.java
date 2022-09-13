@@ -107,7 +107,6 @@ public class Basics {
             String phrase = "Current count: ";
             System.out.println(phrase + i);
         }
-
     }
 
     /**
@@ -155,7 +154,6 @@ public class Basics {
         for (int i = 0; i < 7; i++){
             ret.append(temp[i].charAt(0));
         }
-
 
         return ret.toString();
     }
